@@ -3,9 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="/.styles.css">
+    <link rel="stylesheet" href="/.styles.css" />
+    <link rel= "stylesheet" type="text/css" href="contact.css" media="screen" />
     <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;400&family=Raleway&display=swap" rel="stylesheet">
-    <title>Reba's Portfolio</title>
+    <title>Contact Page</title>
   </head>
   <main>
     <body>
@@ -28,8 +29,25 @@
       </header>
       <section class="contact-section">
         <h1 class="contact">Contact Me</h1>
-        <center> <a id="facebook_link" href="https://www.facebook.com/reebzz/"><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png" class="center" alt="Facebook logo" /></a>
-   <a id="facebook_link" href="https://www.instagram.com/reebz91/"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png" class="center" alt="Instagram logo" /></a> </center>
+          <div class="contact-form">
+            <form action="action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Enter your first name...">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Enter your last name...">
+                  <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message" placeholder="Send me a message!" style="height:200px"></textarea>
+                      <input type="submit" value="Submit">
+                  </form>
+          </div>
+          </section>
+          <section class="social-media">
+            <h1>Social Media</h1>
+        <center> <a id="facebook_link" href="https://www.facebook.com/reebzz/" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Facebook_svg-512.png" class="center" alt="Facebook logo" /></a>
+   <a id="facebook_link" href="https://www.instagram.com/reebz91/" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png" class="center" alt="Instagram logo" /></a> 
+   <a id=github_link href="https://github.com/rjduff1016" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/social-media-2253/25/Group-256.png" class="center" alt="GitHub Logo"></a></center>
       </section>
     </body>
   </main>
