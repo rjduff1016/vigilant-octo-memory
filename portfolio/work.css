@@ -52,4 +52,15 @@
     padding-top: 10%;
     font-size: 45px;
   }
+
+  .project-grid {
+    display:grid;
+  }
   
+  .project-title {
+    width:200px;
+    height:100px;
+    font-weight:bold;
+    background-color:#666633;
+    color:black;
+  }
