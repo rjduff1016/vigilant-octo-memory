@@ -46,6 +46,7 @@
   .my-work {
     display: grid;
     text-align: center;
+    align-items: center;
   }
   
   .work {
