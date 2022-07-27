@@ -44,7 +44,7 @@
   }
   
   .my-work {
-    display: inline;
+    display: grid;
     text-align: center;
   }
   
