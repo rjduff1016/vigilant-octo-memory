@@ -54,8 +54,13 @@
     font-size: 45px;
   }
 
-  .project-grid {
+  .project-tile {
     width: 200px;
     height: 200px;
+  }
+
+  .project-title {
+    text-align: center;
+    font-weight: bold;
   }
   
