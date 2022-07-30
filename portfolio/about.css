@@ -67,9 +67,10 @@
   }
 
   div {
-    display: flex;
+    display: inline-block;
     border-style: none;
     width: 50%;
     overflow: visible;
     text-align: center;
+    margin: 0, auto;
   }
