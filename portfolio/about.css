@@ -67,7 +67,7 @@
   }
 
   div {
-    display: block;
+    display: inline-flex;
     border-style: none;
     width: 50%;
     overflow: visible;
