@@ -69,4 +69,6 @@
   div {
     display: block;
     border-style: none;
+    width: 50%;
+    overflow: visible;
   }
